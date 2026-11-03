@@ -323,10 +323,3 @@ st.markdown(
     f"💡 **확인:** 위 명단의 놓친 환자 수(**{fn_total_len:,}명**)와 헛짚은 사람 수(**{fp_total_len:,}명**)는 "
     f"선택한 모델 혼동행렬의 **FN({selected_res['FN']:,}명)** 및 **FP({selected_res['FP']:,}명)** 값과 정확히 일치합니다."
 )
-```
-
-### Summary of Page 3 Features:
-- **Same Data Split & Pipeline**: Maintains exact parity with page 2 data pre-processing and training splits.
-- **Confusion Matrix Displays**: Structured HTML/Pandas tables detailing TP, FP, FN, TN, and row/column totals.
-- **Comprehensive Score Metric Matrix**: Accuracy, Recall, Precision, and F1 comparisons with non-divisible precision handling.
-- **Error Breakdown**: Filtered, age-sorted displays for FN/FP cases, with clear headers showing overall cohort sizes alongside single-line cross-validating descriptions.
